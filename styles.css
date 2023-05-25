@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.h-container {
+    background-image: url(img/1640031878977.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 300px;
+    text-align: center;
+}
+
+.h-container img {
+    width: 100px;
+    height: 100px;
+}
