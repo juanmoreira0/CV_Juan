@@ -1,17 +1,105 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .h-container {
     background-image: url(img/1640031878977.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 300px;
+    background-size: cover;
+    height: 450px;
     text-align: center;
 }
 
 .h-container img {
-    width: 100px;
-    height: 100px;
+    height: 250px;
+    width: 250px;
+    margin: 25px 0px;
+    border-radius: 10px;
+}
+
+.h-container h1 {
+    background-color: #4ce4cf;
+    letter-spacing: 10px;
+    padding: 10px;
+    margin-bottom: 25px;
+    border: 1px solid #000;
+}
+
+.button {
+    background-color: #8b6df1;
+    color: #fff;
+    font-size: 20px;
+    border: 4px solid #000;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+  }
+
+.m-container {
+    text-align: center;
+    margin-top: 100px;
+}
+
+section h2 {
+    background-color: #8b6df1;
+    color: #fff;
+    padding: 10px;
+    letter-spacing: 10px;
+    margin: 25px 0px;
+}
+
+.m-container .personal-info div {
+    margin-left: 500px;
+    text-align: left;
+}
+
+.m-container .academic-info {
+    margin-bottom: 118px;
+}
+
+.m-container .academic-info p {
+    font-size: 20px;
+}
+
+.m-container .academic-info div {
+    margin-left: 500px;
+    text-align: left;
+}
+
+.m-container .academic-info div dt {
+    font-weight: bold;
+}
+
+.m-container .working-info {
+    margin-bottom: 25px;
+}
+
+.m-container .working-info div {
+    margin-left: 500px;
+    text-align: left;
+}
+
+.m-container .working-info div dt {
+    font-weight: bold;
+}
+
+.f-container {
+    background-color: #8b6df1;
+    color: #fff;
+    font-size: 20px;
+    height: 30px;
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.f-container img {
+    height: 20px;
 }
